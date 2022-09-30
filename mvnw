@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 # ----------------------------------------------------------------------------
 # Licensed to the Apache Software Foundation (ASF) under one
 # or more contributor license agreements.  See the NOTICE file
@@ -259,7 +259,7 @@ else
         if [ -e "$javaClass" ]; then
             if [ ! -e "$BASE_DIR/.mvn/wrapper/MavenWrapperDownloader.class" ]; then
                 if [ "$MVNW_VERBOSE" = true ]; then
-                  echo " - Compiling MavenWrapperDownloader.java ..."
+                  echo " - Compiling MavenWrapperDownloader.java ....."
                 fi
                 # Compiling the Java class
                 ("$JAVA_HOME/bin/javac" "$javaClass")
@@ -274,9 +274,7 @@ else
         fi
     fi
 fi
-##########################################################################################
-# End of extension
-##########################################################################################
+
 
 export MAVEN_PROJECTBASEDIR=${MAVEN_BASEDIR:-"$BASE_DIR"}
 if [ "$MVNW_VERBOSE" = true ]; then
