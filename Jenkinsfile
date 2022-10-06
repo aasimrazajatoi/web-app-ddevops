@@ -15,7 +15,7 @@ pipeline {
 
         stage ('deploy') {
 	        steps {
-		     sh 'chmod 777 ${WORKSPACE}/target/OpsWays-0.0.1-SNAPSHOT.jar'
+		     sh 'echo helloworld'
  	 
 		 }
          }
